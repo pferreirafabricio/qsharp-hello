@@ -1,0 +1,10 @@
+# Example of a `.gitattributes` file which reclassifies the files as csharp
+*.cs linguist-language=csharp
+*.csproj linguist-language=qsharp
+*.sln linguist-language=qsharp
+*.qs linguist-language=qsharp
+
+# And ignore those repositories considering them as documentation
+src/*/wwwroot/* linguist-documentation
+wwwroot/** linguist-documentation
+*/bin/* linguist-documentation
