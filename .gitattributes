@@ -1,5 +1,6 @@
 # Example of a `.gitattributes` file which reclassifies the files as csharp
 *.cs linguist-language=csharp
+*.fs linguist-language=fsharp
 *.csproj linguist-language=qsharp
 *.sln linguist-language=qsharp
 *.qs linguist-language=qsharp
